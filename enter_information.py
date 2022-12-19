@@ -15,7 +15,10 @@ print(f'All you need to buy {desk_in_class} desk')
 print('\n')
 #task_3
 number = int(input('Enter number: '))
-print(int(f'{number % 10}{number //10 %10}{number // 100}'))
+number_1 = (number % 10) * 100
+number_2 = (number // 10 % 10) * 10
+number_3 = number // 100
+print(f'{number_1 + number_2 + number_3}')
 print('\n')
 #task_4
 #exemple_1
