@@ -13,10 +13,6 @@ def cenzor(file: str, list_cenzor: list):
         with open('new_file.txt', 'w') as file:
             file.writelines(word)
 
-
-list_words = ["never", "been"]
-cenzor('text', list_words)
-
 import string
 
 
