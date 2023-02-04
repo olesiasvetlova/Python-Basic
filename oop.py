@@ -16,7 +16,7 @@ class Employee:
         print(f"Firstname: {self.firstname}\nLastname: {self.lastname}\nAge: {self.age}")
 
     def write_json(self):
-        with open('111.txt', 'w') as filename:
+        with open('dict.json', 'w') as filename:
             json.dump(vars(self), filename, indent=4)
 
     def write_csv(self):
